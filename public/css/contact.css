@@ -45,11 +45,11 @@ table {
 /* ############################ FONTS ###########################*/
 @font-face{
   font-family: Unna;
-  src: url(fonts/CalibreWeb-Regular.woff2)
+  src: url(../fonts/CalibreWeb-Regular.woff2)
 }
 @font-face{
   font-family: UnnaBold;
-  src: url(fonts/CalibreWeb-Semibold.woff2)
+  src: url(../fonts/CalibreWeb-Semibold.woff2)
 }
 
 /* ########################### NAV BAR ##########################*/
@@ -89,7 +89,7 @@ li a.active {
 
 /* ########################### HEADER ###########################*/
 .header {
-    background: url("img/motor-768750_1280.jpg");
+    background: url("../img/contact\ background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 50%;
@@ -100,6 +100,7 @@ li a.active {
     font-family: Courier;
     text-align: center;
     color: white;
+    font-weight: 900;
     position: absolute;
     top: 25%;
     left: 50%;
